@@ -1,0 +1,88 @@
+.section.track-order {
+  padding: 20px;
+}
+
+.track-order-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.progress-bar {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  margin-right: 20px;
+  margin-top: 85px;
+
+}
+
+.step {
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.step-icon {
+  width: 30px;
+  height: 30px;
+  background-color: #ccc;
+  border-radius: 50%;
+  display: inline-block;
+  line-height: 30px;
+  color: #fff;
+  margin-right: 10px;
+}
+
+.step.active .step-icon {
+  background-color: #4caf50;
+}
+
+.step-text {
+  margin: 0;
+}
+
+.progress-line {
+  position: absolute;
+  top: 0px;
+  left: 12px;
+  width: 5px;
+  background-color: #4caf50;
+  z-index: -1;
+  transition: height 0.2s ease-in-out;
+}
+
+.order-details {
+  flex: 1;
+  margin-left: 20px;
+}
+
+.product-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product-item {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin: 10px;
+  max-width: calc(33% - 20px);
+  box-sizing: border-box;
+}
+
+.product-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+h3 {
+  margin: 10px 0;
+}
+
+h1 {
+  margin-bottom: 20px;
+}

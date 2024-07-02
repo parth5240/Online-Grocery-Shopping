@@ -1,0 +1,14 @@
+{
+    "products": [
+      { "id": 1, "name": "Apple", "category": "Fruits", "description": "Fresh red apples", "price": 1.5, "image": "./images/apple.png" },
+      { "id": 2, "name": "Banana", "category": "Fruits", "description": "Organic bananas", "price": 1.2, "image": "./images/banana.png" },
+      { "id": 3, "name": "Banana", "category": "Fruits", "description": "Organic bananas", "price": 1.2, "image": "./images/banana.png" },
+      { "id": 4, "name": "Banana", "category": "Fruits", "description": "Organic bananas", "price": 1.2, "image": "./images/banana.png" },
+
+      { "id": 5, "name": "Carrot", "category": "Vegetables", "description": "Carrots", "price": 2.1, "image": "./images/carrot.png" },
+      { "id": 6, "name": "Broccoli", "category": "Vegetables", "description": "Broccoli", "price": 1.8, "image": "./images/Broccoli.png" },
+      { "id": 7, "name": "Bread", "category": "Other Groceries", "description": "Whole grain bread", "price": 2.5, "image": "./images/bread.png" },
+      { "id": 8, "name": "Milk", "category": "Other Groceries", "description": "1 gallon of milk", "price": 3.5, "image": "./images/milk.png" }
+    ]
+  }
+  

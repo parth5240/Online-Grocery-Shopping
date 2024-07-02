@@ -1,0 +1,33 @@
+.slide {
+  display: flex;
+  flex-direction: row; /* Align items horizontally */
+  align-items: center;
+  justify-content: space-between; /* Space between slogan and image */
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+.slogan {
+  flex: 1; /* Make slogan take up 1 portion of the available space */
+  padding-right: 20px;
+  text-align: left;
+}
+
+.slogan h2 {
+  font-size: 2rem;
+  color: #333;
+}
+
+.image {
+  flex: 1; /* Make image take up 1 portion of the available space */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image img {
+  max-width: 100%;
+  max-height: 400px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

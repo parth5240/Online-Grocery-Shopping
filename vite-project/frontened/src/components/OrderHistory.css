@@ -1,0 +1,28 @@
+.order-history {
+  margin-top: 30px;
+}
+
+.order-item {
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.product-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.product-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
